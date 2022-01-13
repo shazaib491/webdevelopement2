@@ -1,0 +1,62 @@
+/* start selector */
+/* *{
+    color:red;
+} */
+
+/* selector  */
+/* 2.)class selector  */
+/* 3.)id selector  */
+
+/* 1.)element selector  */
+h1 {
+  /* color: rgb(122, 91, 91); */
+  /* key :value */
+}
+/* 
+p{
+    color:red;
+}
+*/
+
+/* 1.)element selector  */
+
+/* class selector */
+/* dot .  */
+
+.demo {
+  color: green;
+}
+.demo2 {
+  color: pink;
+}
+
+/* class selector */
+
+/* id selector */
+/* hash */
+#unique {
+  color: green;
+}
+
+/* id selector */
+
+h3,
+h4 {
+  color: hotpink;
+}
+
+.bg {
+  /* background-image: url(../images/Screenshot\ from\ 2022-01-02\ 21-41-24.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; */
+  /* shorthand property */
+  background: url(../images/Screenshot\ from\ 2022-01-02\ 21-41-24.png)
+    no-repeat center fixed;
+  /* shorthand property */
+
+  height: 500px;
+
+  /* background-color: blue; */
+  /* width: 50%; */
+}
