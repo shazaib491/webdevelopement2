@@ -1,0 +1,27 @@
+.container {
+  /* border-style:solid groove dashed double; */
+  /* border-width: 10px 20px 10px 40px;
+    border-color: green #ffff00 pink grey;
+    border-bottom-style: solid; */
+  /* shorthand property */
+  border-left: 6px solid red;
+  background-color: lightgrey;
+  border-bottom-right-radius: 10px;
+  height: 50px;
+  width:60%;
+  margin: auto;
+  /* margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px; */
+    /* margin: 25px 100px 75px; */
+    /* margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    /* top right-left bottom */
+    /* margin: 10px 50px 20px; */
+    /* top-bottom right-left */
+    /* margin:100px 200px; */ */
+
+}
