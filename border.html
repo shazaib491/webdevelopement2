@@ -1,22 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- cdn content delivery  network -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
 </head>
 <style>
-    .intro{
+    .intro {
         /* border-style:solid groove double dotted;
         border-width:10px 20px 30 40px;
         border-color:red green yellow blue; */
-        color:green;
-        border:10px solid  red;
+        font-family: Tahoma, Verdana, sans-serif;
+        font-style: normal;
+        /* font-family: 'The Nautigal', cursive; */
+        border: 10px solid red;
         border-radius: 10px;
-        outline-style:dotted;
+        outline-style: dotted;
         outline-width: 10px;
-        outline-offset: 100px;
+        outline-offset: 50px;
         max-width: 50%;
         /* margin-right:100px;
         margin-bottom:50px; */
@@ -24,44 +34,85 @@
         /* top  right-left bottm*/
         /* margin:100px 200px 300px; */
 
-        margin-top:100px;
+        margin-top: 100px;
         /* margin: auto; */
-        margin-left:auto;
-        margin-right:auto;
+        margin-left: auto;
+        margin-right: auto;
         /* padding-left:100px;
         padding-right:100px;
         padding-top:100px;
         padding-bottom:100px; */
-        padding: 100px;
         text-align: left;
         text-align: center;
-        
+
     }
-    p.aligner{
+
+    p.aligner {
         /* text-decoration:underline; */
         /* text-align:justify ; */
         /* text-indent: 100px; */
-        text-align-last: justify;
-        
+        /* text-align-last: justify; */
+        text-align: justify;
+
         text-transform: capitalize;
-        letter-spacing: 10px;
-        line-height: 50px;
-        word-spacing: 10px;
-        white-space: nowrap;
+        letter-spacing: 0px;
+        line-height: 30px;
+        word-spacing: 0px;
+        /* white-space: nowrap; */
     }
-    a.decor{
+
+    a.decor {
         text-decoration: none;
     }
+
+
+    a:link {
+        color: red;
+    }
+
+    /* visited link */
+    a:visited {
+        color: green;
+    }
+
+    /* mouse over link */
+    a:hover {
+        color: hotpink;
+    }
+
+    /* selected link */
+    a:active {
+        color: blue;
+    }
 </style>
+
 <body>
     <div class="intro">
         <a href="" class="decor">Home</a>
-        <h1  >Hello World</h1>
+        <!-- inline css -->
+        <!-- back front blur color -->
+        <br>
+        <p class="fas fa-globe" style="color:blue;font-size:50px;">
+            lorem</p>
+
+        <marquee behavior="scroll" direction="up" scrollamount="1">Slow Scrolling</marquee>
+        <marquee behavior="scroll" direction="right" scrollamount="12"><i class="fas fa-car-side"></i></marquee>
+        <marquee behavior="scroll" direction="left" scrollamount="20"><i class="fas fa-car-side"></i></marquee>
+        <marquee behavior="scroll" direction="right" scrollamount="50">Yash baraskar</marquee>
         <p class="aligner">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque culpa molestiae labore odio
-            <u>
-            praesentium, ipsam ad ducimus, ipsum tempora dignissimos sapiente facere quis similique itaque  </u>deleniti delectus! Iste, quo molestiae.</p>
+
+            praesentium, ipsam ad ducimus, ipsum tempora dignissimos sapiente facere quis similique itaque
+            deleniti delectus! Iste, quo molestiae.
+        </p>
 
     </div>
-    
+
+
+
+    <!-- content delivery network -->
+
+
+
 </body>
+
 </html>
