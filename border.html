@@ -84,15 +84,30 @@
     a:active {
         color: blue;
     }
+    /* 1  */
+    .d-none{
+        visibility: hidden;
+    }
+    .blocker{
+        border:1px solid red;
+        margin-left: 10px;
+    }
+    .inline-block{
+        border:1px solid red;
+        display: inline;
+        /* padding: 30px;
+        width: 50%;
+        margin:auto */
+    }
 </style>
 
 <body>
-    <div class="intro">
-        <a href="" class="decor">Home</a>
+    <!-- <div class="intro"  >
+        <a href="" class="decor">Home</a> -->
         <!-- inline css -->
         <!-- back front blur color -->
-        <br>
-        <p class="fas fa-globe" style="color:blue;font-size:50px;">
+        <!-- <br> -->
+        <!-- <p class="fas fa-globe" style="color:blue;font-size:50px;">
             lorem</p>
 
         <marquee behavior="scroll" direction="up" scrollamount="1">Slow Scrolling</marquee>
@@ -103,15 +118,23 @@
 
             praesentium, ipsam ad ducimus, ipsum tempora dignissimos sapiente facere quis similique itaque
             deleniti delectus! Iste, quo molestiae.
-        </p>
+        </p> -->
 
-    </div>
+    <!-- </div> -->
 
 
 
     <!-- content delivery network -->
 
 
+
+    <div class="d-none">
+        <h1>Hidden Wolrd</h1>
+    </div>
+
+    <span class="blocker">Hello Wolrd</span>
+    <div class="inline-block">Hello Wolrd</div>
+    
 
 </body>
 

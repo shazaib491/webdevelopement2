@@ -1,32 +1,14 @@
 #include <stdio.h>
-void main()
+int main(int argc, char const *argv[])
 {
-    int i, j, k;
-    int cnt = 0;
-    int knt = 0;
-    for (int i = 0; i <= 4; i++)
+    int no = 12345;
+    int rev;
+    while (no != 0)
     {
-        cnt = 0;
-        for (int j = 4; j > i; j--)
-        {
-            cnt++;
-            printf("%d", cnt);
-        }
-        for (int f = 0; f <= i * 2; f++)
-        {
-            if (f == 0 && i==0)
-            {
-                printf(" ");
-            }
-            printf("%c",32);
-        }
-        int knt = 4;
-        for (int j = 4; j > i; j--)
-        {
-            knt--;
-            printf("%d", knt);
-        }
-
-        printf("\n");
+        int last = no % 10;
+        rev = rev *10 + last;
+        no = no / 10;
     }
+    printf("%d",rev);
+    return 0;
 }
