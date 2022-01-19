@@ -1,0 +1,62 @@
+Projects
+1.)Digimaker
+2.)vegifresh
+3.)agarwalWeb
+4.)StoreApi
+5.)Institute Management
+
+
+
+
+https://docs.google.com/forms/d/1BmHEPp7kvGB4ZvgRDMz-W6gOIjZyABIdHw12lqAL9TI
+
+Good afternoon All!
+
+Project: None
+
+Task:
+- Learning webSocket in Nodejs,
+- Attending Communication Training Call
+
+Blocker -none
+Any suggestion/escalation/issues related to project for you- none
+
+
+hello Everyone please take a moment to fill this feedback form with help of given link after the session topic name : Introduction to Express JS (at the end of the session) https://docs.google.com/forms/d/1o9GVpl037nVVrdjqMMXDlq0xdsHVMtg8T9G9xrdRCuc/viewform?edit_requested=true 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Good afternoon All!
+
+Project Name: None
+
+Task:
+-Learning web-sockets 
+
+
+Blocker -none
+Any suggestion/escalation/issues related to project for you- none
+
+
+
+
+Good morning Team
+
+Project Name: No project assign Client Name: 3CX
+Today Task : I will doing R&D in node
+Blockers: None
